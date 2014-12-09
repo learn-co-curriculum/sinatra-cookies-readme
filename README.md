@@ -1,4 +1,4 @@
-## Cookies in Sinatra
+# Cookies in Sinatra
 
 ### What exactly are cookies?
 
