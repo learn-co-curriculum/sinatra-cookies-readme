@@ -20,6 +20,10 @@ What? Then how does Facebook remember me?
 
 >–– Michael Hartl, *The Ruby on Rails Tutorial*
 
+Since HTTP is stateless, we need the browser to be responsible for holding some sort of simple state. On each HTTP request, the server sends some information for the browser. Cookies were created to store that data. A **cookie** is effectively just storing a hash on the browser that then gets send with every request. 
+
+Servers then realized that there was a use case for just storing data very temporarily. Just while a user is using their website. We call that one usage a session.
+
 A **session** is simply an object, like a hash, that stores data describing a client's interaction with a website at a given point in time. The session hash lives on the server. Your application can access it in any of your controllers at any point in time. 
 
 So, how does a web application know who is interacting with it? By using **cookies and session data**. 
