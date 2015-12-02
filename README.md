@@ -65,3 +65,5 @@ So far, we've defined a **session** as a hash that lives on the server side of o
 ### Resources
 - [Cookies.org](http://www.allaboutcookies.org/)
 - [HTTP Cookie] (https://en.wikipedia.org/wiki/HTTP_cookie#Session_cookie)
+
+<a href='https://learn.co/lessons/sinatra-cookies-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
