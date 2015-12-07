@@ -1,12 +1,16 @@
-# Cookies and Sessions
+# Sessions and Cookies
+
+## Overview
+
+In this lesson, we'll introduce you to sessios and cookies and how they work together to store information about a particular user who is interacting with a website at a given point in time. 
 
 ## Objectives
 
-1. Define cookies. 
-2. Define sessions. 
-3. Learn the difference between sessions and cookies.
+1. Define sessins and explain how they store data describing a client's interaction with a website at a given point in time
+2. Define cookies and what's contained in them 
+3. Distinguish between session cookies and persistent cookies
 
-## How do your websites recognize you?
+## How do Your Websites Recognize You?
 
 When you visit Facebook, chances are, you'll find you're logged in and be taken to your timeline directly. If you check your gmail account, you might see advertisements relating to search terms you typed into Google earlier that day. When you shop on Amazon, your shopping cart stays full while you continue to shop all the way up until you checkout. How is this possible? Is your computer spying on you all the time? The answer is, sort of. 
 
@@ -22,7 +26,7 @@ What? Then how does Facebook remember me?
 
 Since HTTP is stateless, we need the browser to be responsible for holding some sort of simple state. On each HTTP request, the server sends some information for the browser. Cookies were created to store that data. A **cookie** is effectively just storing a hash on the browser that then gets sent with every request. 
 
-Servers then realized that there was a use case for just storing data very temporarily. Just while a user is using their website. We call that one usage a session.
+Servers then realized that there was a use case for just storing data very temporarily just while a user is using their website. We call that one usage a session.
 
 A **session** is simply an object, like a hash, that stores data describing a client's interaction with a website at a given point in time. The session hash lives on the server. Your application can access it in any of your controllers at any point in time. 
 
@@ -59,12 +63,7 @@ What would happen if we didn't have persistent cookies? We would have to go to F
 
 ### Cookies and Sessions Work Together
 
-You can think of cookies as client-side counterparts to sessions. They store information on in your browser or on your computer and and are visible only to the server that created them. Client browsers send cookies to remote servers along with each web request. Then the web application on the server can read the cookie, associate it with an existing session if any and decide how to respond. For example, if there is no cookie received, the application might show login page. If a cookie is received it's data doesn't match the data stored in the session on the server-side of the application, the app might show login page with the user name pre-filled, having gotten that data from the cookie. If a cookie is received that does match the data in a session on the server-side of the application, the app might respond with that user's data.
-
-## Coming Up...
-
-So far, we've defined a **session** as a hash that lives on the server side of our application and stores information about a particular user who is interacting with our website at a given point in time. The session object will get information from and interact with cookies. Later on, we'll learn how to use the session object to build apps that allow users to log in and log out. 
-
+You can think of cookies as client-side counterparts to sessions. They store information in your browser or on your computer and and are visible only to the server that created them. Client browsers send cookies to remote servers along with each web request. Then the web application on the server can read the cookie, associate it with an existing session if any and decide how to respond. For example, if there is no cookie received, the application might show login page. If a cookie is received it's data doesn't match the data stored in the session on the server-side of the application, the app might show login page with the user name pre-filled, having gotten that data from the cookie. If a cookie is received that does match the data in a session on the server-side of the application, the app might respond with that user's data.
 
 ### Resources
 - [Cookies.org](http://www.allaboutcookies.org/)
