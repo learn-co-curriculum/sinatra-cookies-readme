@@ -6,7 +6,7 @@ In this lesson, we'll introduce you to sessios and cookies and how they work tog
 
 ## Objectives
 
-1. Define sessins and explain how they store data describing a client's interaction with a website at a given point in time
+1. Define sessions and explain how they store data describing a client's interaction with a website at a given point in time
 2. Define cookies and what's contained in them 
 3. Distinguish between session cookies and persistent cookies
 
