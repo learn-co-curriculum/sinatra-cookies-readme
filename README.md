@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this lesson, we'll introduce you to sessios and cookies and how they work together to store information about a particular user who is interacting with a website at a given point in time. 
+In this lesson, we'll introduce you to sessions and cookies and how they work together to store information about a particular user who is interacting with a website at a given point in time. 
 
 ## Objectives
 
