@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this lesson, we'll introduce you to sessios and cookies and how they work together to store information about a particular user who is interacting with a website at a given point in time. 
+In this lesson, we'll introduce you to sessions and cookies and how they work together to store information about a particular user who is interacting with a website at a given point in time. 
 
 ## Objectives
 
@@ -63,7 +63,7 @@ What would happen if we didn't have persistent cookies? We would have to go to F
 
 ### Cookies and Sessions Work Together
 
-You can think of cookies as client-side counterparts to sessions. They store information in your browser or on your computer and and are visible only to the server that created them. Client browsers send cookies to remote servers along with each web request. Then the web application on the server can read the cookie, associate it with an existing session if any and decide how to respond. For example, if there is no cookie received, the application might show login page. If a cookie is received it's data doesn't match the data stored in the session on the server-side of the application, the app might show login page with the user name pre-filled, having gotten that data from the cookie. If a cookie is received that does match the data in a session on the server-side of the application, the app might respond with that user's data.
+You can think of cookies as client-side counterparts to sessions. They store information in your browser or on your computer and are visible only to the server that created them. Client browsers send cookies to remote servers along with each web request. Then the web application on the server can read the cookie, associate it with an existing session (if any) and decide how to respond. For example, if there is no cookie received, the application might show the login page. If a cookie is received and it's data doesn't match the data stored in the session on the server-side of the application, the app might show the login page with the user name pre-filled, having gotten that data from the cookie. If a cookie is received that does match the data in a session on the server-side of the application, the app might respond with that user's data.
 
 ### Resources
 - [Cookies.org](http://www.allaboutcookies.org/)
