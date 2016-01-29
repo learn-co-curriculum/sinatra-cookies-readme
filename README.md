@@ -69,4 +69,4 @@ You can think of cookies as client-side counterparts to sessions. They store inf
 - [Cookies.org](http://www.allaboutcookies.org/)
 - [HTTP Cookie] (https://en.wikipedia.org/wiki/HTTP_cookie#Session_cookie)
 
-<a href='https://learn.co/lessons/sinatra-cookies-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-cookies-readme' title='Sessions and Cookies'>Sessions and Cookies</a> on Learn.co and start learning to code for free.</p>
