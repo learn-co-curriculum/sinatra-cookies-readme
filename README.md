@@ -12,7 +12,7 @@ In this lesson, we'll introduce you to sessions and cookies and how they work to
 
 ## How do Your Websites Recognize You?
 
-When you visit Facebook, chances are, you'll find you're logged in and be taken to your timeline directly. If you check your gmail account, you might see advertisements relating to search terms you typed into Google earlier that day. When you shop on Amazon, your shopping cart stays full while you continue to shop all the way up until you checkout. How is this possible? Is your computer spying on you all the time? The answer is, sort of. 
+When you visit Facebook, chances are, you'll find you're logged in and be taken to your timeline directly. If you check your Gmail account, you might see advertisements relating to search terms you typed into Google earlier that day. When you shop on Amazon, your shopping cart stays full while you continue to shop all the way up until you checkout. How is this possible? Is your computer spying on you all the time? The answer is, sort of. 
 
 Before we can understand what is so amazing about the kind of persistence and recognition we've come to expect from our web applications, we need to understand something about how the web works. 
 
@@ -51,13 +51,13 @@ Cookies will usually have a URL to the website that generated it, the date on wh
 
 There are two primary kinds of cookies: session and persistent.
 
-**Session cookies** allow a website to keep track of your movement from page to page for that specific session (from the time you log in to the time you log out/close the browser). Session cookies simply allow you to navigate through a site without repeatedly having to authenticate yourself on every new page you visit within the web application domain. Session cookies expire every time out log out or navigate away from the website.
+**Session cookies** allow a website to keep track of your movement from page to page for that specific session (from the time you log in to the time you log out/close the browser). Session cookies simply allow you to navigate through a site without repeatedly having to authenticate yourself on every new page you visit within the web application domain. Session cookies expire every time you log out or navigate away from the website.
 
 Let's walk through an example of what would happen without a session cookie. If you were on Amazon, added an item to your shopping cart, and then selected the "Checkout" option, the new page would have no recollection of your prior activity. Your shopping cart would always be empty, even though you explicitly added an item earlier. There would be no record of your activities for that session.
 
 Later on, we'll learn how to use the cookie and session objects to build apps that allow users to log in and log out.
 
-**Persistent cookies** allow a website to remember your user information and preferences for *future* visits. A persistent cookie is stored on your computer, while a session cookie is temporarily stored in your web browser. Persistent cookies allow for faster page loading, automatic login and user authentication, and access to other potential web application features because much of the data that these features require will be hanging out in a persistent cookie, stored on your computer. This means you don't have to go through the cycle of sending a web request to a site and waiting to receive data back from the server in order to for your browser to have your log in info, for example. Persistent cookies are usually created on the first visit to the page after you have created an account, and typically don't expire unless the web application has a protocol in place for cookie expiration, or the user clears their browser's cookie cache.
+**Persistent cookies** allow a website to remember your user information and preferences for *future* visits. A persistent cookie is stored on your computer, while a session cookie is temporarily stored in your web browser. Persistent cookies allow for faster page loading, automatic login and user authentication, and access to other potential web application features because much of the data that these features require will be hanging out in a persistent cookie, stored on your computer. This means you don't have to go through the cycle of sending a web request to a site and waiting to receive data back from the server in order for your browser to have your login info, for example. Persistent cookies are usually created on the first visit to the page after you have created an account, and typically don't expire unless the web application has a protocol in place for cookie expiration, or the user clears their browser's cookie cache.
 
 What would happen if we didn't have persistent cookies? We would have to go to Facebook's login page and type in our email address and password every single time we wanted to visit Facebook. Our user settings and preferences would not be remembered, and the quality of the user's experience would go way down.
 
@@ -69,4 +69,6 @@ You can think of cookies as client-side counterparts to sessions. They store inf
 - [Cookies.org](http://www.allaboutcookies.org/)
 - [HTTP Cookie] (https://en.wikipedia.org/wiki/HTTP_cookie#Session_cookie)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-cookies-readme' title='Sessions and Cookies'>Sessions and Cookies</a> on Learn.co and start learning to code for free.</p>
+<a href='https://learn.co/lessons/sinatra-cookies-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-cookies-readme'>Sessions and Cookies</a> on Learn.co and start learning to code for free.</p>
