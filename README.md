@@ -45,7 +45,7 @@ Here's the general flow:
 
 ### What is contained in a cookie?
 
-Cookies will usually have a URL to the website that generated it, the date on which it was created (and the date on which it expired, if applicable), and other pertinent information that has been requested by the web application (such as remembered login information, user preferences, etc).
+Cookies will usually have an URL to the website that generated it, the date on which it was created (and the date on which it expired, if applicable), and other pertinent information that has been requested by the web application (such as remembered login information, user preferences, etc).
 
 ### Session Cookies vs. Persistent Cookies
 
@@ -72,3 +72,5 @@ You can think of cookies as client-side counterparts to sessions. They store inf
 <a href='https://learn.co/lessons/sinatra-cookies-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-cookies-readme'>Sessions and Cookies</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-cookies-readme'>Sessions and Cookies</a> on Learn.co and start learning to code for free.</p>
