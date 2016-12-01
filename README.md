@@ -49,7 +49,7 @@ A cookie will usually contain a URL to the generating website, the date on which
 
 There are two primary kinds of cookies: session and persistent.
 
-**Session cookies** allow a website to keep track of your movement from page to page for that specific session (from the time you log in to the time you log out/close the browser). Session cookies simply allow you to navigate through a site without repeatedly having to authenticate yourself on every new page you visit within the web application domain. Session cookies expire every time you log out or navigate away from the website.
+**Session cookies** allow a website to keep track of your movement from page to page for that specific session (from the time you log in to the time you log out or close the browser). Session cookies simply allow you to navigate through a site without repeatedly having to authenticate yourself on every new page you visit within the web application domain. Session cookies expire every time you log out or navigate away from the website.
 
 Let's walk through an example of what would happen without a session cookie. If you added an item to your Amazon shopping cart on one page and then navigated to another to checkout, the newly-loaded page would have no recollection of your prior activity. Your shopping cart would remain empty despite your best efforts to fill it with items. There would be no persistent record of your activities for that session.
 
@@ -68,3 +68,5 @@ Later on, we'll learn how to use cookie and session objects to build apps that a
 - [HTTP Cookie] (https://en.wikipedia.org/wiki/HTTP_cookie#Session_cookie)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-cookies-readme'>Sessions and Cookies</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-cookies-readme'>Sessions and Cookies</a> on Learn.co and start learning to code for free.</p>
