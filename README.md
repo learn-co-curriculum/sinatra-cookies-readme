@@ -65,6 +65,6 @@ Later on, we'll learn how to use cookie and session objects to build apps that a
 
 ### Resources
 - [Cookies.org](http://www.allaboutcookies.org/)
-- [HTTP Cookie] (https://en.wikipedia.org/wiki/HTTP_cookie#Session_cookie)
+- [HTTP Cookie](https://en.wikipedia.org/wiki/HTTP_cookie#Session_cookie)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-cookies-readme'>Sessions and Cookies</a> on Learn.co and start learning to code for free.</p>
